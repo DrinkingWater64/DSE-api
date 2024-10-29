@@ -9,7 +9,7 @@ const publicRouter = require('./routers/public')
 const publicPath = path.join(__dirname + '/public')
 const viewsPath = path.join(__dirname + '/views')
 
-require('./db')
+// require('./db')
 
 app = express()
 
