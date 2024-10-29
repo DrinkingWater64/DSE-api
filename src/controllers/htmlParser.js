@@ -1,7 +1,6 @@
 const htmlParser = require('node-html-parser')
 
 const jsdom = require("jsdom");
-const { response } = require('express');
 const { JSDOM } = jsdom;
 
 const getStockDetails = (stock) => {
