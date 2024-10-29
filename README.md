@@ -59,5 +59,5 @@ URL: /api/company_data?name=ABBANK&type=price&duration=24
 
 # Docker
 
-Just  ```docker compose up``` and the container will run at listen at http://localhost:3000/
+Just  ```docker compose up``` and the container will run and listen at http://localhost:3000/
 Or make a image based on the ```dockerfile```. The port is exposed at ```3000``` inside node app.
